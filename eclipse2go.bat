@@ -1,8 +1,9 @@
+@echo off & setlocal
 REM Author: David Herrmann
 REM startup script for eclipse2go with ADT
+echo Author: David Herrmann
+echo startup script for eclipse2go with ADT
 
-
-@echo off & setlocal
 REM path of ADT preferences file
 set adtPrefsPath=".\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\com.android.ide.eclipse.adt.prefs"
 REM path of the SDK home folder
