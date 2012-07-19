@@ -1,6 +1,4 @@
 @echo off & setlocal
-REM Author: David Herrmann
-REM Startup script for eclipse2go with ADT
 echo Author: David Herrmann
 echo Startup script for eclipse2go with ADT
 echo.
