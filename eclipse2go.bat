@@ -8,6 +8,9 @@ set adtPrefsPath=".\workspace\.metadata\.plugins\org.eclipse.core.runtime\.setti
 REM path of the SDK home folder
 set sdkPath=%CD%\android-sdk
 
+REM set SDK home variable
+set ANDROID_SDK_HOME %CD%\misc
+
 REM escape characters (\ and :) in the path
 set sdkPath=%sdkPath:\=\\%
 set sdkPath=%sdkPath::=\:%
